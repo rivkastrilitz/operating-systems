@@ -21,7 +21,7 @@ if(pid==0){
     
     if(pid == 0){
         char* args[2]={"./friend",NULL};
-        execpv(args[0],args);
+        execvp(args[0],args);
     }else{
         print("child");
     }
