@@ -25,13 +25,14 @@ int main(){
         close(stderr);
 
         // open log
-        openlog("my_deamon",LOG_PID,LOG_DAEMON);
+        openlog("myDeamon",LOG_PID,LOG_DAEMON);
         // generate a log message
         syslog(LOG_NOTICE,"deamon started");
         usleep(3000000);
         syslog(LOG_NOTICE,"working...");
         usleep(3000000);
         syslog(LOG_NOTICE,"deamon finished");
+        closelog();
     }else{
         printf("deamon pid %d\n",pid);
     }
