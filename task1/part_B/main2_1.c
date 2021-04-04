@@ -20,8 +20,8 @@ if(pid==0){
     pid_t pid = fork();
 
     if(pid == 0){
-         char* args[2]={"./friend",NULL};
-         execvp(args[0],args);
+        char* args[2]={"./friend",NULL};
+        execvp(args[0],args);
     }else{
         print("child");
     }
