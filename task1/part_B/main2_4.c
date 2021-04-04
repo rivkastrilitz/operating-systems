@@ -22,8 +22,10 @@ int child3(void * params){
 }
 
 int main (){
+    printf("main pid %d",getpid());
     int result1 = clone(child1,child_stack+10000,CLONE_PARENT,0);
     int result2 = clone(child2,child_stack+10000,CLONE_PARENT,0);
     int result3 = clone(child3,child_stack+10000,CLONE_PARENT,0);
+    usleep(300000);
     return 0;
 }

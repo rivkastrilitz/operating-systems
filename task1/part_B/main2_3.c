@@ -35,6 +35,7 @@ int main(){
         closelog();
     }else{
         printf("deamon pid %d\n",pid);
+        usleep(3000000);
     }
 
     return 0;
