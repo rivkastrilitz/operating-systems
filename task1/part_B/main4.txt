@@ -1,0 +1,78 @@
+deamon pid 6152
+starting deamon
+pid of child1 = 6153 
+pid of child2 = 6154 
+ pid of parent = 6149 
+--------------------
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from parent
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from child
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+hello from friend chiled
+main p 6147
+main ppid---------------- 5458

@@ -1,0 +1,101 @@
+   PPID     PID    PGID     SID TTY        TPGID STAT   UID   TIME COMMAND
+      1    1360    1360    1360 ?             -1 Ss    1000   0:00 /lib/systemd/systemd --user
+   1360    1361    1360    1360 ?             -1 S     1000   0:00 (sd-pam)
+   1360    1366    1366    1366 ?             -1 S<sl  1000   0:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   1360    1369    1369    1369 ?             -1 SNsl  1000   0:00 /usr/libexec/tracker-miner-fs
+      1    1371    1370    1370 ?             -1 Sl    1000   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   1360    1375    1375    1375 ?             -1 Ss    1000   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1349    1380    1380    1380 tty2        1380 Ssl+  1000   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   1380    1382    1380    1380 tty2        1380 Sl+   1000   2:54 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+   1360    1384    1384    1384 ?             -1 Ssl   1000   0:00 /usr/libexec/gvfsd
+   1360    1390    1384    1384 ?             -1 Sl    1000   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+   1360    1411    1411    1411 ?             -1 Ssl   1000   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+   1360    1418    1418    1418 ?             -1 Ssl   1000   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1360    1422    1422    1422 ?             -1 Ssl   1000   0:00 /usr/libexec/gvfs-goa-volume-monitor
+   1360    1426    1375    1375 ?             -1 Sl    1000   0:00 /usr/libexec/goa-daemon
+   1380    1430    1380    1380 tty2        1380 Sl+   1000   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+   1360    1448    1375    1375 ?             -1 Sl    1000   0:00 /usr/libexec/goa-identity-service
+   1360    1466    1466    1466 ?             -1 Ssl   1000   0:01 /usr/libexec/gvfs-afc-volume-monitor
+   1360    1480    1480    1480 ?             -1 Ssl   1000   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+      1    1525    1522    1522 ?             -1 S     1000   0:00 /usr/bin/VBoxClient --clipboard
+   1525    1528    1522    1522 ?             -1 Sl    1000   0:00 /usr/bin/VBoxClient --clipboard
+      1    1536    1534    1534 ?             -1 S     1000   0:00 /usr/bin/VBoxClient --seamless
+   1536    1538    1534    1534 ?             -1 Sl    1000   0:00 /usr/bin/VBoxClient --seamless
+      1    1543    1539    1539 ?             -1 S     1000   0:00 /usr/bin/VBoxClient --draganddrop
+   1543    1544    1539    1539 ?             -1 Sl    1000   0:49 /usr/bin/VBoxClient --draganddrop
+      1    1549    1546    1546 ?             -1 S     1000   0:00 /usr/bin/VBoxClient --vmsvga
+   1549    1551    1546    1546 ?             -1 Sl    1000   0:00 /usr/bin/VBoxClient --vmsvga
+   1430    1558    1558    1558 ?             -1 Ss    1000   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   1360    1575    1575    1575 ?             -1 Ssl   1000   0:00 /usr/libexec/at-spi-bus-launcher
+   1575    1580    1575    1575 ?             -1 S     1000   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   1360    1587    1587    1587 ?             -1 Ssl   1000   0:00 /usr/libexec/gnome-session-ctl --monitor
+   1360    1594    1594    1594 ?             -1 Ssl   1000   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   1360    1609    1609    1609 ?             -1 Ssl   1000   2:56 /usr/bin/gnome-shell
+   1609    1635    1635    1609 ?             -1 Sl    1000   0:00 ibus-daemon --panel disable --xim
+   1635    1639    1635    1609 ?             -1 Sl    1000   0:00 /usr/libexec/ibus-dconf
+   1635    1640    1635    1609 ?             -1 Sl    1000   0:01 /usr/libexec/ibus-extension-gtk3
+   1360    1644    1635    1609 ?             -1 Sl    1000   0:00 /usr/libexec/ibus-x11 --kill-daemon
+   1360    1647    1375    1375 ?             -1 Sl    1000   0:00 /usr/libexec/ibus-portal
+   1360    1657    1575    1575 ?             -1 Sl    1000   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1360    1661    1661    1661 ?             -1 Ssl   1000   0:00 /usr/libexec/xdg-permission-store
+   1360    1663    1375    1375 ?             -1 Sl    1000   0:00 /usr/libexec/gnome-shell-calendar-server
+   1360    1674    1674    1674 ?             -1 Ssl   1000   0:00 /usr/libexec/evolution-source-registry
+   1360    1682    1682    1682 ?             -1 Ssl   1000   0:00 /usr/libexec/evolution-calendar-factory
+   1360    1697    1697    1697 ?             -1 Ssl   1000   0:00 /usr/libexec/evolution-addressbook-factory
+   1360    1699    1375    1375 ?             -1 Sl    1000   0:00 /usr/libexec/dconf-service
+   1360    1716    1375    1375 ?             -1 Sl    1000   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1384    1722    1384    1384 ?             -1 Sl    1000   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+   1360    1737    1737    1737 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-a11y-settings
+   1360    1738    1738    1738 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-color
+   1360    1739    1739    1739 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-datetime
+   1360    1741    1741    1741 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-housekeeping
+   1360    1744    1744    1744 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-keyboard
+   1360    1750    1750    1750 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-media-keys
+   1360    1755    1755    1755 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-power
+   1360    1756    1756    1756 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-print-notifications
+   1360    1757    1757    1757 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-rfkill
+   1594    1760    1594    1594 ?             -1 Sl    1000   0:00 /usr/libexec/gsd-disk-utility-notify
+   1635    1778    1635    1609 ?             -1 Sl    1000   0:00 /usr/libexec/ibus-engine-simple
+   1360    1779    1779    1779 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-screensaver-proxy
+   1360    1789    1789    1789 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-sharing
+   1360    1790    1790    1790 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-smartcard
+   1594    1800    1594    1594 ?             -1 Sl    1000   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   1360    1801    1801    1801 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-sound
+   1360    1820    1820    1820 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-usb-protection
+   1360    1823    1756    1756 ?             -1 Sl    1000   0:00 /usr/libexec/gsd-printer
+   1360    1836    1836    1836 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-wacom
+   1360    1842    1842    1842 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-wwan
+   1360    1848    1848    1848 ?             -1 Ssl   1000   0:00 /usr/libexec/gsd-xsettings
+   1360    1905    1594    1594 ?             -1 Sl    1000   0:10 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+   1360    1929    1929    1929 ?             -1 Ssl   1000   0:00 /usr/libexec/xdg-document-portal
+   1360    2309    2309    2309 ?             -1 SLsl  1000   0:50 /snap/code/60/usr/share/code/code --force-user-env --no-sandbox --unity-launch --no-sandbox
+   2309    2326    2309    2309 ?             -1 S     1000   0:00 /snap/code/60/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+   2309    2327    2309    2309 ?             -1 S     1000   0:00 /snap/code/60/usr/share/code/code --type=zygote --no-sandbox
+   2326    2401    2309    2309 ?             -1 Sl    1000   2:23 /snap/code/60/usr/share/code/code --type=gpu-process --field-trial-handle=1733115423503371358,10694189960674019356,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel --global-crash-keys=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.55.0 --gpu-preferences=OAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA== --use-gl=swiftshader-webgl --shared-files
+   2309    2404    2309    2309 ?             -1 Sl    1000   0:00 /snap/code/60/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1733115423503371358,10694189960674019356,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-GB --service-sandbox-type=network --no-sandbox --enable-crash-reporter=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel --global-crash-keys=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.55.0 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --shared-files=v8_context_snapshot_data:100
+   2309    2420    2309    2309 ?             -1 Sl    1000   0:41 /snap/code/60/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=1733115423503371358,10694189960674019356,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-GB --enable-crash-reporter=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel --global-crash-keys=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.55.0 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/snap/code/60/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/snap/code/60/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+   2309    2431    2309    2309 ?             -1 Sl    1000   1:38 /snap/code/60/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=1733115423503371358,10694189960674019356,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-GB --enable-crash-reporter=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel --global-crash-keys=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.55.0 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/snap/code/60/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/snap/code/60/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+   2309    2441    2309    2309 ?             -1 Sl    1000   3:27 /snap/code/60/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=1733115423503371358,10694189960674019356,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-GB --enable-crash-reporter=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel --global-crash-keys=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.55.0 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/snap/code/60/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/snap/code/60/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=1 --renderer-client-id=10 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+   2441    2542    2309    2309 ?             -1 Sl    1000   0:16 /snap/code/60/usr/share/code/code --inspect-port=0 /snap/code/60/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+   2309    2543    2309    2309 ?             -1 Sl    1000   0:10 /snap/code/60/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=1733115423503371358,10694189960674019356,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-GB --enable-crash-reporter=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel --global-crash-keys=d64ea17d-7139-4fd3-9715-51ba00472c86,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.55.0 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/snap/code/60/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --native-window-open --preload=/snap/code/60/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=1 --renderer-client-id=12 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+   2420    2545    2309    2309 ?             -1 Sl    1000   0:10 /snap/code/60/usr/share/code/code --inspect-port=0 /snap/code/60/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+   2431    2550    2309    2309 ?             -1 Sl    1000   0:08 /snap/code/60/usr/share/code/code --inspect-port=0 /snap/code/60/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+   2441    2655    2309    2309 ?             -1 Sl    1000   0:01 /snap/code/60/usr/share/code/code /snap/code/60/usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+   2420    2658    2309    2309 ?             -1 Sl    1000   0:00 /snap/code/60/usr/share/code/code /snap/code/60/usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+   2543    2660    2309    2309 ?             -1 Sl    1000   0:20 /snap/code/60/usr/share/code/code /snap/code/60/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+   2431    2675    2309    2309 ?             -1 Sl    1000   0:00 /snap/code/60/usr/share/code/code /snap/code/60/usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+   2545    2814    2309    2309 ?             -1 Sl    1000   0:08 /home/user/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+   2542    2834    2309    2309 ?             -1 Sl    1000   0:10 /home/user/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+   1360    2886    2886    2886 ?             -1 Ssl   1000   0:00 /usr/libexec/gvfsd-metadata
+   2660    2887    2887    2887 pts/0       2887 Ss+   1000   0:00 /bin/bash
+   1594    2910    1594    1594 ?             -1 Sl    1000   0:00 update-notifier
+   2814    2947    2309    2309 ?             -1 Sl    1000   0:01 /home/user/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 2814 {5CEF06D5-A240-4A95-A840-7F5910D81FFE}
+   2834    4853    2309    2309 ?             -1 Sl    1000   0:01 /home/user/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 2834 {B0BD2AC8-731A-442F-976C-234EDA4991AA}
+   2834    4913    2309    2309 ?             -1 Sl    1000   0:01 /home/user/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 2834 {CAEDD381-E356-4B4B-A6A0-2C584AD0FFA2}
+   1360    5194    1375    1375 ?             -1 Sl    1000   0:02 /usr/bin/nautilus --gapplication-service
+   2660    5458    5458    5458 pts/1       6014 Ss    1000   0:00 /bin/bash
+   1360    5478    1375    1375 ?             -1 Sl    1000   0:01 /usr/bin/gedit --gapplication-service
+   1384    5486    1384    1384 ?             -1 Sl    1000   0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+   1384    5499    1384    1384 ?             -1 Sl    1000   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+   2834    5786    2309    2309 ?             -1 Sl    1000   0:00 /home/user/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 2834 {AFBE6FA5-B546-4829-BC9A-606CD6B8466D}
+   5458    6014    6014    5458 pts/1       6014 R+    1000   0:00 ps -xj

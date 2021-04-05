@@ -1,0 +1,4 @@
+    PID TTY          TIME CMD
+   1382 tty2     00:02:51 Xorg
+   1430 tty2     00:00:00 gnome-session-b
+   5983 pts/1    00:00:00 ps
